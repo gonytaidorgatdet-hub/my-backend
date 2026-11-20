@@ -33,3 +33,10 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Node.js and local environment
+node_modules/
+dist/
+.env
+.env.*
+!.env.example

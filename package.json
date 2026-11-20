@@ -1,0 +1,13 @@
+{
+  "name": "gofinance-backend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server/index.js",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

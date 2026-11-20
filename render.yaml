@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: gofinance-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GOFINANCE_USERS
+        sync: false
+    healthCheckPath: /api/health
